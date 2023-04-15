@@ -1,0 +1,135 @@
+@import url('../colors.css');
+
+.container{
+    padding: 5rem 2rem;
+    margin: auto 0;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.card{
+    padding: 2rem 1.5rem;
+    font-size: 10px;
+}
+
+.card-join{
+    background: var(--white);
+}
+
+.card-join .title{
+    font-weight: 700;
+    font-size: 2.2em;
+    color: var(--cyan);
+}
+
+.card-join .subtitle{
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 1.6em;
+    color: var(--bright-yellow);
+}
+
+.card-join .text{
+    margin-top: 1.5rem;
+    font-size: 1.4em;
+    color: var(--grayish-blue);
+}
+
+.card-sub{
+    background: var(--cyan);
+    color: var(--white);
+}
+
+.card-sub .title{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.card-sub .price{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.card-sub .price span{
+    margin-left: 1rem;
+    font-size: 0.5em;
+    font-weight: 500;
+    color: var(--light-gray);
+}
+
+.card-sub .text{
+    font-size: 1.5em;
+}
+
+.card-sub .btn{
+    margin-top: 2rem;
+    width: 100%;
+    padding: .7rem;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 700;
+    background: var(--bright-yellow);
+    color: var(--white);
+    box-shadow: 0px 5px 10px rgb(0,0,0,0.2);
+}
+
+.card-sub .btn:hover{
+    background: var(--bright-yellow);
+}
+
+.card-why{
+    background: var(--cyan-light);
+}
+
+.card-why .title{
+    font-weight: 700;
+    font-size: 1.8em;
+    color: var(--white);
+}
+
+.card-why .text{
+    margin-top: 1rem;
+    width: 70%;
+    font-size: 1.3em;
+    color: var(--light-gray);
+}
+
+@media (min-width : 425px) {
+    .card{
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 768px) {
+    .container{
+        max-width: 850px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        padding: 3rem 2.5rem;
+        font-size: 14px;
+    }
+
+    .card-join{
+        grid-column: 1 / span 2;
+    }
+
+    .card-sub{
+        grid-column: 1;
+    }
+
+    .card-why{
+        grid-column: 2;
+    }
+}
