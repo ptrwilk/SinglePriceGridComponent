@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SinglePriceGridComponentMaster/static/css/main.c4fbd59c.css",
+    "main.js": "/SinglePriceGridComponentMaster/static/js/main.990dfea7.js",
+    "static/js/787.c698a229.chunk.js": "/SinglePriceGridComponentMaster/static/js/787.c698a229.chunk.js",
+    "index.html": "/SinglePriceGridComponentMaster/index.html",
+    "main.c4fbd59c.css.map": "/SinglePriceGridComponentMaster/static/css/main.c4fbd59c.css.map",
+    "main.990dfea7.js.map": "/SinglePriceGridComponentMaster/static/js/main.990dfea7.js.map",
+    "787.c698a229.chunk.js.map": "/SinglePriceGridComponentMaster/static/js/787.c698a229.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4fbd59c.css",
+    "static/js/main.990dfea7.js"
+  ]
+}
