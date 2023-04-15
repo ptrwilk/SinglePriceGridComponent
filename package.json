@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ptrwilk.github.io/SinglePriceGridComponentMaster",
-  "name": "single-price-grid-component-master",
+  "homepage": "https://ptrwilk.github.io/SinglePriceGridComponent",
+  "name": "single-price-grid-component",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
